@@ -1,0 +1,4 @@
+AuthType		Basic
+AuthName		"SHIFT WEB"
+AuthUserfile  C:/Users/16t249/Desktop/web/soken
+require valid-user
