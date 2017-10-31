@@ -1,4 +1,9 @@
 AuthType		Basic
 AuthName		"SHIFT WEB"
-AuthUserfile  C:/Users/16t249/Desktop/web/soken
+AuthGroupFile /dev/null
+AuthUserFile /Users/16t249/Desktop/web/soken/.htpasswd
 require valid-user
+
+<Files ~ "^.(htpasswd|htaccess)$">
+    deny from all
+</Files>
